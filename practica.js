@@ -18,12 +18,12 @@ let estudiantes = [
 ];
 
 const estudiantesAprobados = estudiantes.find((estudiante) => {
-return estudiantes.aprobado;
+return estudiante.aprobado;
 });
 console.log(estudiantesAprobados);
 
 
 const estudiantesDesaprobados = estudiantes.filter((estudiante) =>{
-return estudiantes.aprobado === false ;
+return estudiante.aprobado === false ;
 });
 console.log(estudiantesDesaprobados);
