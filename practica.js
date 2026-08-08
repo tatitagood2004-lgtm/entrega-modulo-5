@@ -17,13 +17,13 @@ let estudiantes = [
     }
 ];
 
-const estudiantesAprobados = estudiantes.find((estudiante) => {
+const estudianteAprobados = estudiantes.find((estudiante) => {
 return estudiante.aprobado;
 });
 console.log(estudiantesAprobados);
 
 
-const estudiantesDesaprobados = estudiantes.filter((estudiante) =>{
+const estudianteDesaprobados = estudiantes.filter((estudiante) =>{
 return estudiante.aprobado === false ;
 });
 console.log(estudiantesDesaprobados);
