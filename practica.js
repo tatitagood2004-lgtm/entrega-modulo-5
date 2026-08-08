@@ -1,7 +1,7 @@
 
 let estudiantes = [
     {
-    "id" : 0,
+    "id" : "0",
     "nombre" : "Ramon",
     "aprobado" : true
     },
@@ -20,10 +20,10 @@ let estudiantes = [
 const estudianteAprobados = estudiantes.find((estudiante) => {
 return estudiante.aprobado;
 });
-console.log(estudiantesAprobados);
+console.log(estudianteAprobados);
 
 
 const estudianteDesaprobados = estudiantes.filter((estudiante) =>{
 return estudiante.aprobado === false ;
 });
-console.log(estudiantesDesaprobados);
+console.log(estudianteDesaprobados);
